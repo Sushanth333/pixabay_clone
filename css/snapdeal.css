@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap" );
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#headersection{
+    background:#e40046;
+    /*for top red */
+    height: 100px;
+}
+
+#hedersection .marginleftandrightspace,
+.logoandcartsection>article{
+width: 90%;
+margin: 0 auto;
+/*we need to use article for allignment */
+}
+.topmenu p{
+    margin: 0;
+}
+
+.topmenu {
+    background: #c7003d;
+    position: relative;
+   z-index: 1; 
+   color:#fff;
+   /* for dark red*/
+   height: 30px;
+   line-height: 28px;
+font-size: 12px;
+}
+
+/* to remve bullets ,allign */
+.leftpara{
+    width: 50%;
+    float: left;
+  
+}
+
+.rightmenu{
+list-style: none;
+padding: 0;
+margin: 0;
+width:50%;
+float: right;
+text-align: right;
+}
+
+.rightmenu li{
+    display: inline-block;
+}
+
+.rightmenu li a{
+    padding: 0px 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.logoandcartSection>article .logo {
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 18px
+}
+
+
+.logoandcartsection>article
+.search{
+    width:63%;
+    float: left;
+    line-height: 70px;
+
+}
+
+.logoandcartsection>article
+.right{
+    width:20%;
+    float: right;
+    line-height: 70px;
+
+}
+#search {
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    color: #909090;
+}
+
+.searchText {
+    padding: 8px 30px;
+    background: #111;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    margin: 0px -5px;
+    position: relative;
+    top: 1px;
+}
+
+#insideDiv {
+    position: absolute;
+    display: none;
+}
+
+.rightNavigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation li {
+    display: inline-block;
+
+}
+
+.rightNavigation li a {
+    padding: 26px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.rightNavigation .dropdown:hover {
+    background: #111;
+}
+
+.rightNavigation .dropdown ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation .dropdown ul {
+    line-height: 30px;
+}
+
+.rightNavigation .dropdown:hover #insideDiv {
+    background: #111;
+    display: inline-block;
+    top: 70px;
+    width: 200px;
+    right: 0;
+}
+
+.insideList li a {
+    padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contentsection{
+    background: #eee;
+    height: 100vh;  /* vh= view height */
+}
+
+#contentsection>article{
+margin-top: 50px;
+}
+
+.contentleft{
+    width: 20%;
+    float: left;
+    background: white;
+}
+
+.contentmiddle{
+    width: 56%;
+    float: left;
+    background: white;
+    margin: 0px 2%;
+}
+.contentright{
+    width: 20%;
+    float: right;
+    background: white;
+}
+
+.menulist{
+   /* padding: 0; */
+    margin: 0;
+    list-style: none;
+
+    padding: 15px;
+}
+
+.menulist li a{
+    text-decoration: none;
+    color: #111;
+
+    padding: 10px;
+    display: inline-block; /* bcoz ancor tag is inline elemrnt */
+    font-size: 12px;
+    font-weight: 100;
+    width: 100%;
+}
+
+.contentleft h5{
+    padding: 15px;
+    margin: 0;
+
+    font-size: 12px;
+    font-weight: 100; /*100 or lighter*/
+}
+
+
+
+
+.menulist li a:hover{
+  border-left:3px solid red ;
+  background: #eee;
+  transition: ease-in-out all 0.5s;
+}
+
+/* vertical menu ....above */
+.commonCname{
+    
+    height: 10px;
+    width: 10px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+}
+.all_offers_icon{
+    background-size: cover;
+    background: url('../images/instagram.jpg');
+}
